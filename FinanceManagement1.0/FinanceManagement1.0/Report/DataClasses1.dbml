@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLFinance" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-1NR6VQT;Initial Catalog=QLFinance;Integrated Security=True" SettingsObjectName="FinanceManagement1._0.Properties.Settings" SettingsPropertyName="QLFinanceConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.FmIncome" Member="FmIncomes">
+    <Type Name="FmIncome">
+      <Column Name="FmUser" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmIncome" Member="FmIncome1" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmNote" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmWName" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmCatelogy" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmCreatedDay" Type="System.String" DbType="NVarChar(52)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FmExpense" Member="FmExpenses">
+    <Type Name="FmExpense">
+      <Column Name="FmUser" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmExpense" Member="FmExpense1" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmNote" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmWName" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmCreatedDate" Type="System.String" DbType="NVarChar(52) NOT NULL" CanBeNull="false" />
+      <Column Name="FmCatelogy" Type="System.String" DbType="NVarChar(52)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
